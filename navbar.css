@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Create a responsive navigation menu with a hamburger icon. */
+
+nav{
+width: 100%;
+height: 50px;
+background-color: black;
+justify-content: space-between;
+display: flex;
+align-items: center;
+
+}
+
+h1{
+color: white;
+margin-left: 50px;
+}
+
+nav .home {
+color: white;
+display: flex;
+gap: 30px;
+justify-content: space-around;
+}
+
+nav .home img{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    display: flex;
+    margin-right: 50px;
+}
+
+/* Design a responsive footer using flexbox, with social media icons and copyright information. */
+
+.container{
+    width: 100%;
+    /* display: flex; */
+}
+
+.container .head {
+    width: 100%;
+    height: 50%;
+    background-color: lightcyan;
+}
+
+.container .foot {
+    width: 80%;
+    margin-top: 400px;
+    
+}
+.container .foot .icons {
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+    /* align-items: center; */
+    margin-left: 350px;
+}
+
+.container .foot .icons img {
+width: 100px;
+height: 100px;
+padding: 20px;
+}
+
+.container .foot .copyright {
+    display: flex;
+    justify-content: center;
+    margin-left: 350px;
+}
+
+/* Create a responsive card layout using flexbox, where each card adjusts its size based on the screen size. */
+
+.box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    gap: 30px;
+    /* background-color: black; */
+}
+
+.box .box1, .box2, .box3{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    
+}
+
+@media(max-width:600px){ 
+    .box .box1, .box2, .box3{
+        width: 150px;
+        height: 150px;
+        background-color: green;
+    }
+   
+}
+
+@media(max-width:400px){ 
+    .box .box1, .box2, .box3{
+        width: 100px;
+        height: 100px;
+        background-color: pink;
+    }
+   
+}
+
+/* Design a responsive photo gallery using flexbox, where images adjust their layout based on screen size. */

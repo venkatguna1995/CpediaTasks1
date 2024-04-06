@@ -401,20 +401,20 @@ Steps:
 6. If all characters are the same and the loop completes without returning false, we return true, indicating that the string is a palindrome.
 7. We test the function with example strings to verify. */
 
-let reversData = ""
-function ispalindrome(strng){
-  for(i=strng.length-1;i>=0;i--){
-    console.log(i)
-    reversData += strng[i]
-  }
-  if(strng == reversData){
-    console.log("Given String Isplaindrome")
-  }else{
-    console.log("Given String not Isplaindrome")
-  }
-}
+// let reversData = ""
+// function ispalindrome(strng){
+//   for(i=strng.length-1;i>=0;i--){
+//     console.log(i)
+//     reversData += strng[i]
+//   }
+//   if(strng == reversData){
+//     console.log("Given String Isplaindrome")
+//   }else{
+//     console.log("Given String not Isplaindrome")
+//   }
+// }
 
-console.log(ispalindrome("isisi"))
+// console.log(ispalindrome("isisi"))
 
 
 

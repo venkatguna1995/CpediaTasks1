@@ -1,0 +1,127 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 400px;
+    height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-template-areas: "box1 box1 box1"
+                         "box3 box2 box7"
+                         "box3 box8 box7"
+                         "box9 box9 box9"
+}
+
+.box{
+    /* padding: 20px; */
+     /* width: 100px; */
+    /* height: 50px;  */
+    border-radius: 50px;
+}
+
+/* .box:nth-child(even){
+    background-color: blue;
+}
+.box:nth-child(odd){
+    background-color: green;
+} */
+
+.box1{
+    grid-area: box1;
+    background-color: green;
+}
+.box2{
+    grid-area: box2;
+    background-color: rebeccapurple;
+}
+.box3{
+    grid-area: box3;
+    background-color: grey;
+}
+.box4{
+    grid-area: box4;
+    background-color: purple;
+}
+.box5{
+    grid-area: box5;
+    background-color: black;
+}
+.box6{
+    grid-area: box6;
+    background-color: pink;
+}
+.box7{
+    grid-area: box7;
+    background-color: yellow;
+}
+.box8{
+    grid-area: box8;
+    background-color: orange;
+}
+.box9{
+    grid-area: box9;
+    background-color: red;
+}
+
+.buttons{
+    width: fit-content;
+    height: fit-content;
+    background-color: bisque;
+}
+
+
+
+h1, h2, h3, h4, h5, h6{
+    
+}
+
+.paragraph{
+width: 100%;
+margin-top: 30px;
+}
+
+p:nth-child(3){
+    color: red;
+    background-color: aquamarine;
+}
+
+.red{
+    background-color: bisque;
+    color: red;
+    font-weight: bold;
+}
+.green{
+    background-color: white;
+    color: green;
+    font-weight: bold;
+}
+.orange{
+    background-color: rgb(248, 168, 71);
+    color: orangered;
+    font-weight: bold;
+}
+
+p:hover{
+    background-color: aqua;
+}
+
+.transit{
+    width: 200px;
+    height: 200px;
+    margin: 200px;
+    background-color: rgb(244, 143, 143);
+    transition: all 1s ease-in-out 1s;
+
+}
+
+.transit:hover{
+    background-color: red;
+    border-radius: 100px;
+
+}

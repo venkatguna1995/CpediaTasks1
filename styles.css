@@ -1,0 +1,202 @@
+
+*{
+    margin: 0;
+    padding: 0;
+ box-sizing: border-box;
+}
+/* .container p{
+    font-size: 16px;
+    color: red;
+} */
+/* .container{
+    width: 100%;
+    height: 95vh;
+    margin-top: 1000px;
+    margin-bottom: 10000px;
+
+    background-color: aqua;
+    background-image: url("closeup.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: "center";
+    background-attachment:fixed;
+    
+} */
+
+.box1{
+background-color: aqua;
+margin: 100px 500px 200px
+}
+.box2{
+background-color: blue;
+/* margin: 10px; */
+}
+.box3{
+background-color: blueviolet;
+/* margin: 10px; */
+}
+
+
+/* htmlCssTasksCss */
+
+.heading {
+    width: 100%;
+    height: 30px;
+    background-color: bisque;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+.Body{
+    margin-top: 50px;
+    margin-left: 30px;
+    color: green;
+}
+
+
+button{
+    /* text-align: center; */
+    
+    /* background-image: radial-gradient(to bottom right, red, yellow); */
+    /* background-image: radial-gradient(red, yellow,green); */
+    /* background-image: conic-gradient(red, yellow,green,blue,black); */
+    background-color: red;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 115px;
+   
+}
+
+form{
+    margin: 50px auto;
+    padding: 30px;
+    width: 400px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+}
+
+form label {
+    display: block;margin-bottom: 5px;
+    color: white;
+}
+
+form input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+
+}
+
+.rotate img{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 560px;
+    margin-top: -25px;
+    /* transform: rotate(45deg) */
+    /* transform: skew(-45deg); */
+    /* transform: scale(0.5); */
+    transform: translate(200px,-100px);
+
+}
+.rotate1 img{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 560px;
+    margin-top: -25px;
+  
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+.parent{
+    width: 100px;
+    display: flex;
+    gap: 20px;
+    padding: 100px;
+    
+}
+
+.parent .link1, .link2, .link3{
+    height: 20px;
+}
+
+.parent .link1 {
+    background-color: red;
+}
+.parent .link2 {
+    background-color: yellow;
+}
+.parent .link3 {
+    background-color: green;
+}
+
+
+.box{
+    width: 600px;
+    height: 500px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.box .child1, .child2, .child3, .child4{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
+
+/* grids Css Styles */
+
+/* .parantGrid{
+    width: 600px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 20px;
+    background-color: antiquewhite;
+}
+
+.child1, .child2, .child3, .child4, .child5, .child6
+.child7, .child8, .child9 {
+    width: 200px;
+    height: 200px;
+}
+
+.child1, .child4, .child7 {
+    background-color: blue;
+}
+
+.child2, .child5, .child8 {
+    background-color: yellow;
+}
+.child3, .child6, .child9 {
+    background-color: green;
+} */
+
+
+
+
+
+
+
+
+
